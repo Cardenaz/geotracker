@@ -11,4 +11,4 @@ UseCase<EnableRealTimeLocationTrackingDTO, Promise<Response>> {
    async execute(request: EnableRealTimeLocationTrackingDTO): Promise<Response> {
         return right(Result.ok<void>()); 
     }
-}
+  }
