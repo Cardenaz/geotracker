@@ -1,5 +1,5 @@
 import {  } from "."
-import { EnableRealTimeLocationTrackingUseCase } from "./EnableRealTimeLocationTracking";
+import { EnableRealTimeLocationTrackingUseCase } from "./EnableRealTimeLocationTrackingUseCase";
 
 const startTrackingWasherUseCase = new EnableRealTimeLocationTrackingUseCase(); 
 
