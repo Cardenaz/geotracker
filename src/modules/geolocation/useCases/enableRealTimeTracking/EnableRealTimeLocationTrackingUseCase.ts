@@ -12,3 +12,9 @@ UseCase<EnableRealTimeLocationTrackingDTO, Promise<Response>> {
         return right(Result.ok<void>()); 
     }
   }
+
+
+
+  export class GitItThank {
+    statitisciansbestfriendWhySampleSize(){}
+  }
