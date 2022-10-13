@@ -10,7 +10,6 @@ useCase = new EnableRealTimeLocationTrackingUseCase();
 })
 
     it("exists", () => {
-
         expect(startTrackingWasherUseCase).toBeDefined(); 
     }); 
 
