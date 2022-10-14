@@ -10,4 +10,12 @@ const io = new Server(httpServer, {
     // ...
   });
 
-httpServer.listen(port);
+io.on('connection', (socket) => {
+  console.log('User connected'); 
+}); 
+
+httpServer.listen(port, () => {
+  console.log(`Listening on ${port}`)
+});
+
+
