@@ -11,14 +11,14 @@ describe("", () => {
         remoteSource = new SocketIORemoteDataSourceImpl(); 
         server = createServer(); 
     })
-
-
     it("can be created", () => {
-
         remoteSource.createSocketServer(server); 
-
         expect(remoteSource.ioServer).toBeDefined(); 
-    
-    }); 
+    });
 
+    it("should only let authenticated users connect", async () => {
+
+        
+
+    }); 
 }); 
